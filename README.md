@@ -20,11 +20,11 @@ Classifies organic compounds as soluble or poorly soluble.
 
 ## Session 2
 
-### gat.ipynb
-Predicts physicochemical properties using Graph Attention Networks.
-- **Dataset**: ESOL 
-- **Model**: GAT on molecular graphs
-- **Task**: Regression (multi-target)
+### mpnn.ipynb
+Predicts molecular properties using Message Passing Neural Networks.
+- **Dataset**: ESOL
+- **Model**: Simple Mpnn
+- **Task**: Regression
 - **Predicted**: LogS and LogP
 
 ### gcn.ipynb
@@ -34,9 +34,10 @@ Predicts molecular solubility and lipophilicity with Graph Convolutional Network
 - **Task**: Regression
 - **Predicted**: LogS and LogP
 
-### mpnn.ipynb
-Predicts molecular properties using Message Passing Neural Networks.
-- **Dataset**: ESOL
-- **Model**: Simple Mpnn
-- **Task**: Regression
+### gat.ipynb
+Predicts physicochemical properties using Graph Attention Networks.
+- **Dataset**: ESOL 
+- **Model**: GAT on molecular graphs
+- **Task**: Regression (multi-target)
 - **Predicted**: LogS and LogP
+
